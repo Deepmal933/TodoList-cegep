@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:background="@color/colorPrimary"></LinearLayout>
+       <LinearLayout
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="-20dp"
+           android:background="@drawable/profileback"
+           android:gravity="center">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="A"
+               android:id="@+id/letter"
+               android:gravity="center"
+               android:textSize="30dp"
+               android:textColor="#FFF"
+               android:textStyle="bold"></TextView>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_margin="15dp">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="John dor"
+              android:textColor="#000"
+              android:textSize="20dp"
+              android:id="@+id/user_name"></TextView>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="johndoe@gmail.com"
+               android:layout_marginTop="5dp"
+               android:textColor="#111"
+               android:textSize="16dp"
+               android:id="@+id/user_email"></TextView>
+       </LinearLayout>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="logout"
+           android:textColor="#FFF"
+           android:layout_marginTop="-80dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:background="@drawable/btn">
+
+       </Button>
+   </LinearLayout>
+
+</LinearLayout>

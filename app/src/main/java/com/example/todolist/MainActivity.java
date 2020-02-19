@@ -68,7 +68,9 @@ public class MainActivity extends AppCompatActivity{
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_profile) {
+            Intent in = new Intent(MainActivity.this,ProfileActivity.class);
+            startActivity(in);
             return true;
         }
 
