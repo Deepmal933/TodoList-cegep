@@ -13,6 +13,7 @@
 
     <EditText
         android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="50dp"
         android:background="@drawable/input"
         android:hint="Email Address"
@@ -23,6 +24,7 @@
         ></EditText>
     <EditText
         android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="50dp"
         android:paddingLeft="10dp"
         android:textSize="16dp"
@@ -34,10 +36,20 @@
         ></EditText>
     <Button
         android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="50dp"
         android:background="@drawable/btn"
         android:text="Login"
         android:id="@+id/login"
+        android:textColor="#FFF"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:text="Sign Up"
+        android:id="@+id/SignUp"
         android:textColor="#FFF"></Button>
 </LinearLayout>
 </LinearLayout>
